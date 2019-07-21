@@ -1,0 +1,73 @@
+.song-container {
+    width: 100%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2% 25% 35% 100px 100px 2%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        ". cover-img song-data edit-btn delete-btn ."
+        "seperator seperator seperator seperator seperator seperator";
+
+        .image-container {
+            position: relative;
+            width: 100%;
+            min-width: 180px;
+            grid-area: cover-img;
+        
+            .play-button {
+                position: absolute;
+                top: 50%;
+                left:50%;
+                transform: translate(-50%, -50%);
+            }
+            
+            img {
+                width: 100%;
+            }
+        }
+
+        ul {
+            list-style-type: none;
+            grid-area: song-data;
+            font-size: 1.2rem;
+            line-height: 2rem;
+            padding-left: 20px;
+        }
+        
+        button {
+            width: 86px;
+            height: 38px;
+        }
+
+        .edit-btn {
+            grid-area: edit-btn;
+        }
+
+        .delete-btn {
+            grid-area: delete-btn;
+        }
+
+        .seperator {
+            margin: 30px auto 45px auto;
+            grid-area: seperator;
+          }
+          
+          .seperator:before {
+            content: " ";
+            width: 100vw;
+            height: 2px;
+            margin: 0 auto;
+            display: block;
+            background-color: #FFD740;
+          }
+        //   .seperator:after {
+        //     margin: 0 auto;
+        //     content: " ";
+        //     width: 20vw;
+        //     height: 6px;
+        //     display: block;
+        //     background-color: #FFD740;
+        //   }
+}
+
+

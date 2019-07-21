@@ -1,0 +1,47 @@
+<h1 mat-dialog-title>{{ data.dialogTitle }}</h1>
+<div mat-dialog-content>
+
+  <mat-form-field [floatLabel]="options.value.floatLabel">
+    <mat-label>Song Name</mat-label>
+    <input type="text" matInput placeholder="Song Name" [(ngModel)]="data.song.name" [formControl]="name" required>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Artist Name</mat-label>
+    <input type="text" matInput placeholder="Artist Name" [(ngModel)]="data.song.artist" [formControl]="artist" required>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Song Genre</mat-label>
+    <mat-select placeholder="Song Genre" [(ngModel)]="data.song.genreName" [formControl]="genreName" required>
+      <mat-option value="pop">pop</mat-option>
+      <mat-option value="rap">rap</mat-option>
+      <mat-option value="hip-hop">hip-hop</mat-option>
+      <mat-option value="alternative">alternative</mat-option>
+      <mat-option value="rock">rock</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Cover URL</mat-label>
+    <input type="text" matInput placeholder="Cover URL" [(ngModel)]="data.song.coverURL" [formControl]="coverURL" required>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Youtube URL</mat-label>
+    <input type="text" matInput placeholder="Youtube URL" [(ngModel)]="data.song.youTubeURL" [formControl]="youTubeURL"
+      required>
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput [matDatepicker]="picker1" placeholder="Release Date" [value]="releaseDate.value" required
+      (dateChange)="onDateChange($event)">
+    <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+    <mat-datepicker #picker1></mat-datepicker>
+  </mat-form-field>
+
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button (click)="save($event)">Save</button>
+</div>

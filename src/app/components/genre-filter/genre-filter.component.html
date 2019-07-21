@@ -1,0 +1,8 @@
+
+<ul>
+    <li>Genres Filter: </li>
+    <li *ngFor="let genre of genres$ | async">
+        <mat-checkbox [color]="'warn'" [(ngModel)]="genre.selected" name="{{genre.genreName}}"
+            (change)="toggleGenreSelection($event, genre.selected, genre.genreName)">{{genre.genreName}}</mat-checkbox>
+    </li>
+</ul>

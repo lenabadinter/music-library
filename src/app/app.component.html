@@ -1,0 +1,14 @@
+<div *ngIf="loading; else loaded">
+    <app-loader></app-loader>
+</div>
+<ng-template #loaded>
+    <header>
+        <h1>Youtube Music Library</h1>
+        <app-add-new-song-button></app-add-new-song-button>
+        <app-genre-filter></app-genre-filter>
+    </header>
+    <app-song-list></app-song-list>
+    <footer>
+        Developed By Lena Badinter - lena.badinter@gmail.com - 0527491907
+    </footer>
+</ng-template>

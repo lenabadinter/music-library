@@ -1,0 +1,72 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
+    font-size: 0.93rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    color: #fff;
+    background-color: #212121;
+}
+
+.mat-button-wrapper {
+    color: #fff;
+    font-weight: 900;
+}
+
+button, .mat-fab {
+    text-transform: uppercase;
+}
+
+.mat-checkbox-inner-container {
+    background-color: #FFD740;
+}
+
+.mat-dialog-container {
+    box-shadow: 0 11px 15px -7px rgba(255,215,64,.2), 0 24px 38px 3px rgba(255,215,64,.14), 0 9px 46px 8px rgba(255,215,64,.12);
+    background: #212121;
+    color: #fff;
+}
+
+.mat-form-field-appearance-legacy .mat-form-field-underline {
+    background-color: #FFD740;
+}
+
+input::placeholder {
+    color: #FFD740 !important;
+    opacity: 1; 
+}
+
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #FFD740;
+}
+
+input::-ms-input-placeholder { /* Microsoft Edge */
+    color: #FFD740;
+}
+
+.mat-form-field-appearance-legacy .mat-form-field-label {
+    color: #fff;
+}
+
+mat-form-field {
+    width:100%;
+}
+
+.mat-select-value {
+    color: #fff;
+}

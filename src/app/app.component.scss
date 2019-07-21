@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 20;
+    text-transform: uppercase;
+    height: 4.5rem;
+    background-color: rgba(33, 33, 33, 0.8);
+}
+
+h1 {
+    
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 20;
+    height: 4.5rem;
+    background-color: rgba(33, 33, 33, 0.8);
+}

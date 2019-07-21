@@ -1,0 +1,19 @@
+<div *ngIf="song.visible" class="song-container">
+    <div class="image-container">
+        <img alt="Youtube Song Cover" [src]="song.coverURL" class="cover-img">
+        <a color="warn" class="play-button" mat-fab [href]="song.youTubeURL" target="_blank">Play</a>
+    </div>
+
+    <ul>
+        <li>Song Name: {{song.name}}</li>
+        <li>Artist: {{song.artist}}</li>
+        <li>Genre: {{song.genreName}}</li>
+        <li>Release Date: {{song.releaseDate}}</li>
+    </ul>
+
+    <button class="edit-btn" mat-raised-button color="accent" (click)="openModifyDialog()">Edit</button>
+    <button class="delete-btn" mat-raised-button color="warn" (click)="openDeleteDialog()">Delete</button>
+    
+    <div class="seperator"></div>
+</div>
+

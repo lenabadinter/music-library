@@ -1,0 +1,230 @@
+{
+    "songs": [
+        {
+            "id": "1",
+            "name": "Paagal",
+            "artist": "Baadshah",
+            "genreName": "pop",
+            "coverURL": "https://i.ytimg.com/vi/bdesdebUFLE/hqdefault.jpg",
+            "youTubeURL": "https://www.youtube.com/watch?v=bdesdebUFLE",
+            "releaseDate": "Jul 10, 2019"
+        },
+        {
+            "id": "2",
+            "name": "Money",
+            "artist": "2Scratch",
+            "genreName": "pop",
+            "coverURL": "https://i.ytimg.com/vi/-SwqAhX_i4I/hqdefault.jpg",
+            "youTubeURL": "https://www.youtube.com/watch?v=-SwqAhX_i4I",
+            "releaseDate": "Nov 26, 2018"
+        },
+        {
+            "id": "3",
+            "name": "Superlife",
+            "artist": "2Scratch",
+            "genreName": "pop",
+            "coverURL": "https://i.ytimg.com/vi/71gpwkuyzN8/hqdefault.jpg",
+            "youTubeURL": "https://www.youtube.com/watch?v=71gpwkuyzN8",
+            "releaseDate": "Dec 11, 2018"
+        },
+        {
+            "id": "4",
+            "name": "7 rings",
+            "artist": "Ariana Grande",
+            "genreName": "pop",
+            "coverURL": "https://i.ytimg.com/vi/QYh6mYIJG2Y/hqdefault.jpg",
+            "youTubeURL": "https://www.youtube.com/watch?v=QYh6mYIJG2Y",
+            "releaseDate": "Jan 17, 2019"
+        },
+        {
+            "id": "5",
+            "name": "Sweet but Psycho",
+            "artist": "Ava Max",
+            "genreName": "pop",
+            "coverURL": "https://i.ytimg.com/vi/WXBHCQYxwr0/hqdefault.jpg",
+            "youTubeURL": "https://www.youtube.com/watch?v=WXBHCQYxwr0",
+            "releaseDate": "Aug 27, 2018"
+        },
+        {
+            "id": "6",
+            "name": "Migos - Pure Water",
+            "artist": "Mustard",
+            "genreName": "rap",
+            "coverURL": "https://i.ytimg.com/vi/9hJ8lLNWrM4/hqdefault.jpg",
+            "youTubeURL": "https://www.youtube.com/watch?v=9hJ8lLNWrM4",
+            "releaseDate": "Mar 7, 2019"
+        },
+        {
+            "id": "7",
+            "name": "Old Town Road",
+            "artist": "Lil Nas X",
+            "genreName": "rap",
+            "coverURL": "https://i.ytimg.com/vi/gUcisIlT7sM/hqdefault.jpg",
+            "youTubeURL": "https://www.youtube.com/watch?v=gUcisIlT7sM",
+            "releaseDate": "Apr 9, 2019"
+        },
+        {
+            "id": "8",
+            "name": "Wow",
+            "artist": "Post Malone",
+            "genreName": "rap",
+            "coverURL": "https://i.ytimg.com/vi/393C3pr2ioY/hqdefault.jpg",
+            "youTubeURL": "https://www.youtube.com/watch?v=393C3pr2ioY",
+            "releaseDate": "Mar 19, 2019"
+        },
+        {
+            "id": "9",
+            "name": "Middle Child",
+            "artist": "J. Cole",
+            "genreName": "rap",
+            "coverURL": "https://i.ytimg.com/vi/WILNIXZr2oc/hqdefault.jpg",
+            "youTubeURL": "https://www.youtube.com/watch?v=WILNIXZr2oc",
+            "releaseDate": "Feb 25, 2019"
+        },
+        {
+            "id": "10",
+            "name": "The London",
+            "artist": "Young Thug",
+            "genreName": "rap",
+            "coverURL": "https://i.ytimg.com/vi/OKhT_6XtD7I/hqdefault.jpg",
+            "youTubeURL": "https://www.youtube.com/watch?v=OKhT_6XtD7I",
+            "releaseDate": "May 23, 2019"
+        },
+        {
+            "id": "11",
+            "name": "Lembrancas",
+            "artist": "Hungria Hip Hop",
+            "genreName": "hip-hop",
+            "coverURL": "https://i.ytimg.com/vi/EiQmbrvvDaY/hqdefault.jpg",
+            "youTubeURL": "https://www.youtube.com/watch?v=EiQmbrvvDaY",
+            "releaseDate": "Aug 5, 2016"
+        },
+        {
+            "id": "12",
+            "name": "Nao Troco",
+            "artist": "Hungria Hip Hop",
+            "genreName": "hip-hop",
+            "coverURL": "https://i.ytimg.com/vi/hBecvGXZaNM/hqdefault.jpg",
+            "youTubeURL": "https://www.youtube.com/watch?v=hBecvGXZaNM",
+            "releaseDate": "Nov 23, 2017"
+        },
+        {
+            "id": "13",
+            "name": "Dubai",
+            "artist": "Hungria Hip Hop",
+            "genreName": "hip-hop",
+            "coverURL": "https://i.ytimg.com/vi/wNN-Jdk9Q8Y/hqdefault.jpg",
+            "youTubeURL": "https://www.youtube.com/watch?v=wNN-Jdk9Q8Y",
+            "releaseDate": "Mar 23, 2016"
+        },
+        {
+            "id": "14",
+            "name": "Wants",
+            "artist": "Global Dan",
+            "genreName": "hip-hop",
+            "coverURL": "https://i.ytimg.com/vi/xZg4P1FAphQ/hqdefault.jpg",
+            "youTubeURL": "https://www.youtube.com/watch?v=xZg4P1FAphQ",
+            "releaseDate": "Jul 2, 2019"
+        },
+        {
+            "id": "15",
+            "name": "Cody Banks",
+            "artist": "Jack Harlow",
+            "genreName": "hip-hop",
+            "coverURL": "https://i.ytimg.com/vi/3FWB5elvdyY/hqdefault.jpg",
+            "youTubeURL": "https://www.youtube.com/watch?v=3FWB5elvdyY",
+            "releaseDate": "Jan 18, 2019"
+        },
+        {
+            "id": "16",
+            "name": " Here With Me",
+            "artist": "Marshmello",
+            "genreName": "alternative",
+            "coverURL": "https://i.ytimg.com/vi/NRmSf9VqrUA/hqdefault.jpg",
+            "youTubeURL": "https://www.youtube.com/watch?v=NRmSf9VqrUA",
+            "releaseDate": "Mar 22, 2019"
+        },
+        {
+            "id": "17",
+            "name": "On My Way",
+            "artist": "Alan Walker, Sabrina Carpenter and Farruko",
+            "genreName": "alternative",
+            "coverURL": "https://i.ytimg.com/vi/6Htn1x-_-is/hqdefault.jpg",
+            "youTubeURL": "https://www.youtube.com/watch?v=6Htn1x-_-is",
+            "releaseDate": "May 10, 2019"
+        },
+        {
+            "id": "18",
+            "name": "Stay",
+            "artist": "The Score",
+            "genreName": "alternative",
+            "coverURL": "https://i.ytimg.com/vi/yRz6LBiyMWQ/hqdefault.jpg",
+            "youTubeURL": "https://www.youtube.com/watch?v=yRz6LBiyMWQ",
+            "releaseDate": "Jun 9, 2019"
+        },
+        {
+            "id": "19",
+            "name": "Godhunter",
+            "artist": "Aviators",
+            "genreName": "alternative",
+            "coverURL": "https://i.ytimg.com/vi/GoC8OBjs7Iw/hqdefault.jpg",
+            "youTubeURL": "https://www.youtube.com/watch?v=GoC8OBjs7Iw",
+            "releaseDate": "Jan 25, 2019"
+        },
+        {
+            "id": "20",
+            "name": "Lady Gaga and Bradley Cooper",
+            "artist": "Shallow",
+            "genreName": "alternative",
+            "coverURL": "https://i.ytimg.com/vi/3Z7ddmHlbdU/hqdefault.jpg",
+            "youTubeURL": "https://www.youtube.com/watch?v=3Z7ddmHlbdU",
+            "releaseDate": "Jan 31, 2019"
+        },
+        {
+            "id": "21",
+            "name": "Pa Pa Ya",
+            "artist": "Babymetal",
+            "genreName": "rock",
+            "coverURL": "https://i.ytimg.com/vi/oO7Y8NsnkRg/hqdefault.jpg",
+            "youTubeURL": "https://www.youtube.com/watch?v=oO7Y8NsnkRg",
+            "releaseDate": "Jul 1, 2019"
+        },
+        {
+            "id": "22",
+            "name": "Wasted Nights",
+            "artist": "One Ok Rock",
+            "genreName": "rock",
+            "coverURL": "https://i.ytimg.com/vi/b4YLo74OWfY/hqdefault.jpg",
+            "youTubeURL": "https://www.youtube.com/watch?v=b4YLo74OWfY",
+            "releaseDate": "Jan 31, 2019"
+        },
+        {
+            "id": "23",
+            "name": "Yuve Yuve Yu",
+            "artist": "The Hu",
+            "genreName": "rock",
+            "coverURL": "https://i.ytimg.com/vi/v4xZUr0BEfE/hqdefault.jpg",
+            "youTubeURL": "https://www.youtube.com/watch?v=v4xZUr0BEfE",
+            "releaseDate": "Sep 27, 2018"
+        },
+        {
+            "id": "24",
+            "name": "Unsainted",
+            "artist": "Slipknot",
+            "genreName": "rock",
+            "coverURL": "https://i.ytimg.com/vi/VpATBBRajP8/hqdefault.jpg",
+            "youTubeURL": "https://www.youtube.com/watch?v=VpATBBRajP8",
+            "releaseDate": "May 16, 2019"
+        },
+        {
+            "id": "25",
+            "name": "Stand Out Fit In",
+            "artist": "One Ok Rock",
+            "genreName": "rock",
+            "coverURL": "https://i.ytimg.com/vi/bFHcgBfZEq0/hqdefault.jpg",
+            "youTubeURL": "https://www.youtube.com/watch?v=bFHcgBfZEq0",
+            "releaseDate": "Jan 17, 2019"
+        }
+    ],
+    "genres": ["pop", "rap", "hip-hop", "alternative", "rock"]
+}
